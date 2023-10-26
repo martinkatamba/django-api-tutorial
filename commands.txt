@@ -2,7 +2,7 @@ python3 -m venv django-env
 source django-env/bin/activate
 pip3 install -r requirements.txt
 django-admin startproject core .
-python manage.py startapp api
+python manage.py startapp appusers
 python3 manage.py makemigrations
 python3 manage.py migrate
 python manage.py createsuperuser
